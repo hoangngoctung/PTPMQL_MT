@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace MVC.Controllers;
+namespace MVCMOVIE.Controllers;
 
 
 public class StudentController : Controller
