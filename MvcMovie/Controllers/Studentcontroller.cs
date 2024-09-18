@@ -9,7 +9,7 @@ public class StudentController : Controller
         return View();
     }
 
-    [HttpPost]
+    [HttpPost] // nhận dữ liệu từ view 
     public IActionResult Index(string MaSinhVien, string HoTen)
     {
         string strResult = "Xin chao " + MaSinhVien + "-" + HoTen;
